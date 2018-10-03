@@ -152,5 +152,16 @@ namespace BotWindow
             CMDWindow boostWindow = new CMDWindow(data["steamuser"], data["steampass"], String.Join("-", games), data["steamsecret"]);
             boostWindow.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            foreach (ListViewItem itm in listView_Games.Items)
+            {
+                if (itm.SubItems[2].Text == "1")
+                {
+                    itm.Selected = true;
+                }
+            }
+        }
     }
 }

@@ -52,7 +52,7 @@ namespace BotWindow
             this.process.StartInfo.FileName = this.appName;
             this.process.StartInfo.RedirectStandardError = true;
             this.process.StartInfo.StandardErrorEncoding = Encoding.UTF8;
-            this.process.StartInfo.WorkingDirectory = @"C:\Users\Administrator\Desktop\nodestuff";
+            this.process.StartInfo.WorkingDirectory = @"C:\Users\Administrator\Desktop\Bot Stuff\nodestuff";
             this.process.StartInfo.RedirectStandardInput = true;
             this.process.StartInfo.RedirectStandardOutput = true;
             this.process.EnableRaisingEvents = true;

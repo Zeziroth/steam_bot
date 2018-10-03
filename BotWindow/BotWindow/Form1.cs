@@ -41,6 +41,7 @@ namespace BotWindow
         {
             Core.RunThread(LoadUserList);
         }
+
         public void LoadUserList()
         {
             while (true)
