@@ -9,10 +9,6 @@ namespace BotWindow
 {
     public partial class Form1 : Form
     {
-        private const string SERVER = "127.0.0.1";
-        private const string DATABASE = "steamboost";
-        private const string USER = "steamboost";
-        private const string PASS = "cf388407fec975558db61705e65aaa4f39b60988";
         private MySQLController mySQLConn = null;
 
         public Form1()
@@ -27,7 +23,7 @@ namespace BotWindow
 
         private void button1_Click(object sender, EventArgs e)
         {
-            mySQLConn = new MySQLController(SERVER, DATABASE, USER, PASS);
+            mySQLConn = new MySQLController(Settings.SERVER, Settings.DATABASE, Settings.USER, Settings.PASS);
 
             if (mySQLConn.IsConnected())
             {
