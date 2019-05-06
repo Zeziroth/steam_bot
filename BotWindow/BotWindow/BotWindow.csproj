@@ -80,6 +80,7 @@
     <Compile Include="MySQLController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <None Include="Settings.rename" />
     <Compile Include="Settings.cs" />
     <Compile Include="SQLRecord.cs" />
     <Compile Include="UserWindow.cs">
